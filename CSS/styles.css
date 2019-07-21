@@ -11,19 +11,20 @@ body {
   .column {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    padding: 80px;
+    height: 80%; /* Should be removed. Only for demonstration */
+    border: 3px solid black;
   }
   .column2 {
     float: right;
-    width: 50%;
-    padding: 10px;
-    height: 50%; /* Should be removed. Only for demonstration */
+    width: 60%;
+    padding: 80px;
+    height: 80%; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
-    display: table;
-    clear: both;
+    /* display: table;
+    clear: both; */
   }
