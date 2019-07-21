@@ -20,6 +20,8 @@ body {
     width: 60%;
     padding: 80px;
     height: 80%; /* Should be removed. Only for demonstration */
+    border: 3px solid black;
+    margin-top:10%;
   }
   
   /* Clear floats after the columns */
