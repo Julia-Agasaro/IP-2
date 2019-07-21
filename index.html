@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href ="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-6">
+                    <div class="card">
+                <img src="#" class="card-img" alt="">
+              
+                  <h5 class="card-title">Birthday Name Giver  </h5>
+                  <p>This is a web application that  takes<br> a user's birthday and calculates <br>the day of the week they were born <br>and then depending on their <br>gender outputs their Akan Name. </p>
+                  <p>Akan names are derived from Ghanian culture.<br> Frequently in Ghana, children <br>are given their first name <br>as a 'day name' which corresponds<br> to the day in the week they were born.<br> Here are Ghanian day names.</p>
+                  <h3><strong>List of Akan Names </strong></h3>
+                    <img src="https://www.researchgate.net/profile/Annelies_Kusters/publication/288001994/figure/tbl2/AS:614079748120585@1523419429250/2-Day-Names-in-Akan-Culture.png" alt="Akan Names" width="70%" height="70%">
+                        
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                <form>
+                    <div class="form-group">
+                      <label for="century">Century</label>
+                      <input type="century" class="form-control" id="century" aria-describedby="century" placeholder="century">
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="birthdate">Birthdate</label>
+                      <input type="Date" class="form-control" id="birthdate" placeholder="birthdate">
+                    </div>
+                    <div class="form-group">
+                            <label for="gender">Gender:</label>
+                            <input type="radio"  id="gender" name="gender" value="male"/>male
+                            <input type="radio"  id="gender" name="gender" value="female"/>female
+                          </div>
+                          <div class = "form-group">
+                              <label for ="Akan-Name">Akan Name :</label>
+                              <p id="Akan-Name"></p>
+                          </div>
+                    <input type="button" value ="submit" onclick ="akanname()" class="btn btn-primary">
+                </div>
+              </div>
+            </form>
+            </div>
+          </div>
+    </div>
+    <script src="Js/index.js"></script>
+
+</body>
+</html>
