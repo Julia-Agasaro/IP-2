@@ -12,7 +12,7 @@ The purpose of this Webpage is to use the birtdate inserted and according to the
 
 **Contact**
 
-If you run into any issues or have questions, ideas or concerns. Contact me or make a contribution to the code. agasarojulia@gmail.com ,Github username:Julia-Agasaro.
+If you run into any issues or have questions, ideas or concerns. Contact me or make a contribution to the code. Email :agasarojulia@gmail.com ,Github username:Julia-Agasaro.
 
 
 
